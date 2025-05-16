@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shcsed&#39;s Blog</title>
+    <link>https://shcsed.github.io/posts/</link>
+    <description>Recent content on Shcsed&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 May 2025 18:13:01 +0000</lastBuildDate><atom:link href="https://shcsed.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Post</title>
+      <link>https://shcsed.github.io/posts/first-post/</link>
+      <pubDate>Fri, 16 May 2025 18:13:01 +0000</pubDate>
+      
+      <guid>https://shcsed.github.io/posts/first-post/</guid>
+      <description>&lt;p&gt;This is the first post, thanks.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

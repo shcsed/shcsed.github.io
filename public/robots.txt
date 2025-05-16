@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://shcsed.github.io/sitemap.xml
