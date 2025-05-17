@@ -5,17 +5,23 @@
     <link>https://shcsed.github.io/</link>
     <description>Recent content on Shcsed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Fri, 16 May 2025 18:13:01 +0000</lastBuildDate><atom:link href="https://shcsed.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© shcsed</copyright>
+    <lastBuildDate>Sat, 17 May 2025 10:40:15 +0000</lastBuildDate>
+    <atom:link href="https://shcsed.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My dot zshrc</title>
+      <link>https://shcsed.github.io/posts/zshrc/</link>
+      <pubDate>Sat, 17 May 2025 10:40:15 +0000</pubDate>
+      <guid>https://shcsed.github.io/posts/zshrc/</guid>
+      <description>I really don&amp;rsquo;t like the bloated oh-my-zsh setup. I&amp;rsquo;d like my shell to be fast and snappy and requires no configuration after the initial setup.&#xA;So here is my .zshrc (as a gist):&#xA;#!/usr/bin/env zsh SAVEHIST=1000000 HISTFILE=~/.zsh_history touch $HISTFILE export PATH=&amp;#34;$HOME/.bin:$PATH&amp;#34; export PATH=&amp;#34;$HOME/.config/emacs/bin:$PATH&amp;#34; export EDITOR=nvim export PATH=&amp;#34;$HOME/.local/bin:$PATH&amp;#34; export PATH=&amp;#34;${GOPATH}/bin:${PATH}&amp;#34; export GOPATH=&amp;#34;$HOME/go&amp;#34; # ------ devenv start # zfunc ZFUNC_DIR=&amp;#34;$HOME/.config/zsh/zfunc&amp;#34; [ -d ${ZFUNC_DIR} ] || mkdir -p ${ZFUNC_DIR} fpath+=${ZFUNC_DIR} # zfunc # ---- ghc [ -d &amp;#34;$HOME/.</description>
+    </item>
     <item>
       <title>First Post</title>
       <link>https://shcsed.github.io/posts/first-post/</link>
       <pubDate>Fri, 16 May 2025 18:13:01 +0000</pubDate>
-      
       <guid>https://shcsed.github.io/posts/first-post/</guid>
-      <description>&lt;p&gt;This is the first post, thanks.&lt;/p&gt;
-</description>
+      <description>This is the first post, thanks.</description>
     </item>
-    
   </channel>
 </rss>

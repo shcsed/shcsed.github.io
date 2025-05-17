@@ -5,6 +5,8 @@
     <link>https://shcsed.github.io/categories/</link>
     <description>Recent content in Categories on Shcsed&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="https://shcsed.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© shcsed</copyright>
+    <atom:link href="https://shcsed.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
