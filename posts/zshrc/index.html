@@ -3,12 +3,12 @@
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>My dot zshrc - Shcsed&#39;s Blog</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="I really don&rsquo;t like the bloated oh-my-zsh setup. I&rsquo;d like my shell to be fast and snappy and requires no configuration after the initial setup.
-So here is my .zshrc (as a gist):
+A lot is going on in my .zshrc (or as a gist). Enjoy!
 #!/usr/bin/env zsh SAVEHIST=1000000 HISTFILE=~/.zsh_history touch $HISTFILE export PATH=&#34;$HOME/.bin:$PATH&#34; export PATH=&#34;$HOME/.config/emacs/bin:$PATH&#34; export EDITOR=nvim export PATH=&#34;$HOME/.local/bin:$PATH&#34; export PATH=&#34;${GOPATH}/bin:${PATH}&#34; export GOPATH=&#34;$HOME/go&#34; # ------ devenv start # zfunc ZFUNC_DIR=&#34;$HOME/.config/zsh/zfunc&#34; [ -d ${ZFUNC_DIR} ] || mkdir -p ${ZFUNC_DIR} fpath&#43;=${ZFUNC_DIR} # zfunc # ---- ghc [ -d &#34;$HOME/." />
 	<meta property="og:image" content=""/>
 	<meta property="og:title" content="My dot zshrc" />
 <meta property="og:description" content="I really don&rsquo;t like the bloated oh-my-zsh setup. I&rsquo;d like my shell to be fast and snappy and requires no configuration after the initial setup.
-So here is my .zshrc (as a gist):
+A lot is going on in my .zshrc (or as a gist). Enjoy!
 #!/usr/bin/env zsh SAVEHIST=1000000 HISTFILE=~/.zsh_history touch $HISTFILE export PATH=&#34;$HOME/.bin:$PATH&#34; export PATH=&#34;$HOME/.config/emacs/bin:$PATH&#34; export EDITOR=nvim export PATH=&#34;$HOME/.local/bin:$PATH&#34; export PATH=&#34;${GOPATH}/bin:${PATH}&#34; export GOPATH=&#34;$HOME/go&#34; # ------ devenv start # zfunc ZFUNC_DIR=&#34;$HOME/.config/zsh/zfunc&#34; [ -d ${ZFUNC_DIR} ] || mkdir -p ${ZFUNC_DIR} fpath&#43;=${ZFUNC_DIR} # zfunc # ---- ghc [ -d &#34;$HOME/." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://shcsed.github.io/posts/zshrc/" /><meta property="article:section" content="posts" />
@@ -17,7 +17,7 @@ So here is my .zshrc (as a gist):
 
 <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="My dot zshrc"/>
 <meta name="twitter:description" content="I really don&rsquo;t like the bloated oh-my-zsh setup. I&rsquo;d like my shell to be fast and snappy and requires no configuration after the initial setup.
-So here is my .zshrc (as a gist):
+A lot is going on in my .zshrc (or as a gist). Enjoy!
 #!/usr/bin/env zsh SAVEHIST=1000000 HISTFILE=~/.zsh_history touch $HISTFILE export PATH=&#34;$HOME/.bin:$PATH&#34; export PATH=&#34;$HOME/.config/emacs/bin:$PATH&#34; export EDITOR=nvim export PATH=&#34;$HOME/.local/bin:$PATH&#34; export PATH=&#34;${GOPATH}/bin:${PATH}&#34; export GOPATH=&#34;$HOME/go&#34; # ------ devenv start # zfunc ZFUNC_DIR=&#34;$HOME/.config/zsh/zfunc&#34; [ -d ${ZFUNC_DIR} ] || mkdir -p ${ZFUNC_DIR} fpath&#43;=${ZFUNC_DIR} # zfunc # ---- ghc [ -d &#34;$HOME/."/>
 
         <link href="https://shcsed.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
@@ -58,7 +58,7 @@ So here is my .zshrc (as a gist):
         
         <section class="body">
           <p>I really don&rsquo;t like the bloated <a href="https://github.com/ohmyzsh/ohmyzsh">oh-my-zsh</a> setup. I&rsquo;d like my shell to be fast and snappy and requires no configuration after the initial setup.</p>
-<p>So here is my <code>.zshrc</code> (as a <a href="https://gist.github.com/shcsed/ae01c58365701f9205f842a9508d4f24">gist</a>):</p>
+<p>A lot is going on in my <code>.zshrc</code> (or as a <a href="https://gist.github.com/shcsed/ae01c58365701f9205f842a9508d4f24">gist</a>). Enjoy!</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e">#!/usr/bin/env zsh
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>SAVEHIST<span style="color:#f92672">=</span><span style="color:#ae81ff">1000000</span>
 </span></span><span style="display:flex;"><span>HISTFILE<span style="color:#f92672">=</span>~/.zsh_history
@@ -213,9 +213,7 @@ So here is my .zshrc (as a gist):
 </span></span><span style="display:flex;"><span>stty -ixon
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">[</span> -f <span style="color:#e6db74">&#34;</span>$HOME<span style="color:#e6db74">/.zshrc.local&#34;</span> <span style="color:#f92672">]</span> <span style="color:#f92672">&amp;&amp;</span> source $HOME/.zshrc.local
-</span></span></code></pre></div><p>I did use <a href="https://github.com/LukeSmithxyz">Luke</a>&rsquo;s vim emulation here, all credits to <a href="https://github.com/LukeSmithxyz/voidrice/blob/f853f1884a8f0c244765192dc6f5a910a7e2b8e5/.config/zsh/.zshrc#L30">Luke</a>.</p>
-<p>Other than this, this zshrc still has many things going on. Enjoy!</p>
-
+</span></span></code></pre></div>
         </section>
         <div class="post-tags">
           
